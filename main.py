@@ -65,9 +65,9 @@ def enviar_email():
 
     msg = email.message.Message()
     msg['Subject'] = "Assunto"
-    msg['From'] = 'pgv621@gmail.com'
-    msg['To'] = 'glaucosantos@faeterj-petropolis.edu.br'
-    password = 'gdfppnwatfcpmmvp' 
+    msg['From'] = 'exemplo@exemplo.com.br'    #email que vai enviar
+    msg['To'] = 'exemplo@exemplo.com.br'      #email que vai receber
+    password = 'dksaskdjaskd'       #Código de verificação de segurança do Google
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
